@@ -1,0 +1,58 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap');
+
+/* Body text style */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Header style */
+h1 {
+  font-family: 'Playfair Display', serif;
+  background-color: #7B4246;
+  color: #F2EFED;
+  padding: 10px;
+  text-align: center;
+  font-size: 60px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #7B4246
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    color: #7B4246
+}
+
+ul, ol {
+  text-align: left;
+  display: inline-block;
+}
+
+/* Radio buttons and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+  accent-color: #FF4A96;
+  cursor: pointer;
+}
+
+/* Links */
+a {
+  color: #FF4A96;
+  text-decoration: none; /* optional: removes underline */
+}
+
+a:hover {
+  color: #ff73b4; /* optional: lighter pink on hover */
+  text-decoration: underline; /* optional: adds underline on hover */
+}
