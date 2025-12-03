@@ -1,0 +1,112 @@
+/* Basic page reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page background and base font */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #E4DDD8;
+  color: #222;
+}
+
+/* Main container */
+#main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Title and subtitle */
+#title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1rem;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+/* Image container */
+#img-div {
+  background-color: #E4DDD8;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 25px;
+}
+
+/* The image itself */
+#image {
+  display: block;        /* required by tests */
+  max-width: 100%;       /* required by tests */
+  height: auto;          /* required by tests */
+  margin: 0 auto;        /* centers the image horizontally */
+  border-radius: 4px;
+}
+
+/* Image caption */
+#img-caption {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #555555;
+}
+
+/* Tribute info text */
+#tribute-info {
+  margin-top: 20px;
+}
+
+#tribute-info h2 {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#tribute-info p {
+  margin-bottom: 12px;
+  text-align: justify;
+}
+
+/* Link section */
+.more-info {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+#tribute-link {
+  color: #1e88e5;
+  text-decoration: underline;
+}
+
+#tribute-link:hover {
+  text-decoration: none;
+}
+
+/* Simple responsive tweak */
+@media (max-width: 600px) {
+  #main {
+    margin: 15px;
+    padding: 15px;
+  }
+
+  #title {
+    font-size: 1.8rem;
+  }
+}
+
+.timeline {
+  padding-left: 150px;
+  padding-right: 150px;
+}
